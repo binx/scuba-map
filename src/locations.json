@@ -1,0 +1,130 @@
+[
+  {
+    "location": "Abaco Caves",
+    "latlng": "26.3817878,-77.9505557",
+    "tags": "Cave",
+    "provider": "http://www.bahamasunderground.com/",
+    "season start": "",
+    "season end": ""
+  },
+  {
+    "location": "Wrightsville Megalodon Teeth",
+    "latlng": "34.2106703,-77.8201845",
+    "tags": "Shark Teeth",
+    "provider": "https://wbdiving.com/our-destination/megalodon-ledges/",
+    "season start": "",
+    "season end": ""
+  },
+  {
+    "location": "Venice Beach Megalodon Teeth",
+    "latlng": "27.0788039,-82.4764901",
+    "tags": "Shark Teeth",
+    "provider": "",
+    "season start": "",
+    "season end": ""
+  },
+  {
+    "location": "Ginnie Springs",
+    "latlng": "29.8353911,-82.7094527",
+    "tags": "Cave",
+    "provider": "",
+    "season start": "",
+    "season end": ""
+  },
+  {
+    "location": "Morehead City",
+    "latlng": "34.7203194,-76.7148921",
+    "tags": "Wreck, Sharks",
+    "provider": "https://www.olympusdiving.com/",
+    "season start": "Jun",
+    "season end": "Oct"
+  },
+  {
+    "location": "God's Pocket",
+    "latlng": "50.8403234,-127.7317707",
+    "tags": "Cold-Water",
+    "provider": "https://www.godspocket.com/",
+    "season start": "",
+    "season end": ""
+  },
+  {
+    "location": "Winter Wonderland Caye Caulker",
+    "latlng": "17.7625388,-88.0281687",
+    "tags": "Cave",
+    "provider": "https://blueworldtv.com/webisodes/watch/winter-wonderland-cave-of-belize",
+    "season start": "",
+    "season end": ""
+  },
+  {
+    "location": "Greenland Icebergs",
+    "latlng": "66.0000832,-37.9056496",
+    "tags": "Cold-Water",
+    "provider": "https://www.northern-explorers.com/tours/iceberg-diving/",
+    "season start": "Aug",
+    "season end": "Sep"
+  },
+  {
+    "location": "Neptune Island White Sharks",
+    "latlng": "-35.3295678,136.0977532",
+    "tags": "Sharks",
+    "provider": "https://rodneyfox.com.au/bookings/",
+    "season start": "Apr",
+    "season end": "May"
+  },
+  {
+    "location": "Raja Amapt",
+    "latlng": "-0.7858474,130.4705555",
+    "tags": "Coral",
+    "provider": "",
+    "season start": "Oct",
+    "season end": "May"
+  },
+  {
+    "location": "Malapascua Thresher Sharks",
+    "latlng": "11.3371065,124.1038064",
+    "tags": "Sharks",
+    "provider": "",
+    "season start": "Jul",
+    "season end": "Oct"
+  },
+  {
+    "location": "Tulum",
+    "latlng": "20.324701,-87.4089528",
+    "tags": "Cave",
+    "provider": "",
+    "season start": "",
+    "season end": ""
+  },
+  {
+    "location": "Socorro",
+    "latlng": "18.7927505,-111.1374048",
+    "tags": "Mantas",
+    "provider": "",
+    "season start": "Nov",
+    "season end": "May"
+  },
+  {
+    "location": "Tahiti",
+    "latlng": "-17.2563685,-155.2477966",
+    "tags": "Whales",
+    "provider": "",
+    "season start": "Aug",
+    "season end": "Oct"
+  },
+  {
+    "location": "Palau",
+    "latlng": "5.4332908,130.4023519",
+    "tags": "Coral, Mantas",
+    "provider": "",
+    "season start": "Nov",
+    "season end": "Apr"
+  },
+  {
+    "location": "Dordogne Caves",
+    "latlng": "44.8774067,0.6289919",
+    "tags": "Cave",
+    "provider": "",
+    "season start": "",
+    "season end": ""
+  }
+]

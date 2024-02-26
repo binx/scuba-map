@@ -1,24 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef, useState, useEffect } from "react";
+import "mapbox-gl/dist/mapbox-gl.css";
+
+import locations from "./locations.json";
+import { loadMap } from "./util";
+import Timeline from "./Timeline";
 
 function App() {
+  const mapContainer = useRef(null);
+  const map = useRef(null);
+
+  const [categoryColors, setCategoryColors] = useState({});
+
+  useEffect(() => {
+    const categories = locations.map((l) => l.tags.split(", "));
+    const cats = [...new Set(categories.flat())].sort();
+
+    const newColors = {};
+    for (let i = 0; i < cats.length; i++) {
+      newColors[cats[i]] = `hsl(${120 + (220 / cats.length) * i}, 60%, 60%)`;
+    }
+    setCategoryColors(newColors);
+
+    loadMap(map, mapContainer, newColors, locations);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="top-flex">
+        <Timeline categoryColors={categoryColors} />
+        <div className="legend">
+          {Object.keys(categoryColors).map((color) => (
+            <div key={`legend-${color}`}>
+              <div
+                style={{ background: categoryColors[color] }}
+                className="dot"
+              />
+              {color}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div ref={mapContainer} className="map-container" />
+    </>
   );
 }
 
