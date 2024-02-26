@@ -57,7 +57,7 @@ export function loadMap(map, mapContainer, categoryColors, locations) {
         `
       );
 
-      const marker = new mapboxgl.Marker({
+      new mapboxgl.Marker({
         // scale: 0.7,
         // color: categoryColors[p.properties.tags[0]],
         element: markerElement,

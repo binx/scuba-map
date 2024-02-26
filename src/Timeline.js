@@ -56,6 +56,7 @@ function Timeline({ categoryColors }) {
       };
     });
     setBars(newBars);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [categoryColors]);
 
   return (
