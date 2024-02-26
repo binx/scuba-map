@@ -22,8 +22,8 @@ function getLocationAsPoint(places) {
 
 export function loadMap(map, mapContainer, categoryColors, locations) {
   const USBounding = [
-    [-125.0, 49.384358],
-    [-66.93457, 24.396308],
+    [-125.0, 54],
+    [-66.93457, 14],
   ];
 
   map.current = new mapboxgl.Map({
